@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  background-color: #e5cece;
+}
+
+.background{
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  padding-top: 10px;
+  opacity: 0.5;
+  background-color: black;
+
+}
+
+.home .subtitle{
+  margin: 5;
+  font-size: 35px;
+  text-align: right;
+  padding-left: 40px;
+  text-shadow: 2px 2px white;
+  color: #3a0303;
+  font-family: cursive;
