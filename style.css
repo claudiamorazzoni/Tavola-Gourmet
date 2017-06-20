@@ -56,10 +56,12 @@ header .instagram a{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-}
+ }
+
 
 .subtitle{
   margin: 35px;
+  padding: 20px;
   font-size: 35px;
   text-align: center;
   color: #633315;
@@ -77,6 +79,16 @@ div .mid{
   display: flex;
   justify-content: center;
   flex-direction: column;
+   height: 450px;
+   padding: 5% 0px;
+}
+
+.mid p{
+   font-size: 25px;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 }
 
 .tabela{
@@ -89,6 +101,28 @@ div .mid{
   display: flex;
   margin-left: auto;
   margin-right: auto
+   width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.footer{
+   text-align: center;
+   padding: 2%;
+   border: black solid 1px;
+   margin: 5px;
+}
+
+.footer p{
+   padding: 10px;
+   font-size: 20px;
+}
+
+.footer input{
+   margin-right: 10px;
+   padding-right: 45px;
+
 }
 
 
