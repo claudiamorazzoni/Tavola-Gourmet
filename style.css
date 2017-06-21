@@ -78,6 +78,7 @@ header .instagram a{
   text-align: center;
   padding-top: 5px;
   padding-bottom: 10px;
+
 }
 
 div .mid{
@@ -106,6 +107,7 @@ div .mid{
   overflow:scroll;
 }
 
+
 .mid img{
   width: 96%;
   display: block;
@@ -132,7 +134,7 @@ div .mid{
   padding-right: 45px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
   .home img {
     height: 20%;
@@ -142,4 +144,8 @@ div .mid{
   .subtitle{
     font-size: 25px;
     margin: 10px;
+  }
+
+  .navigation li{
+    display: flex;
   }
