@@ -5,10 +5,9 @@ body{
 }
 
 header {
-  width: 80%;
+  width: 90%;
   height: 30px;
   background-size: 60%;
-  padding-left: 25px;
 
 }
 .redes-sociais p {
@@ -83,10 +82,11 @@ header .instagram a{
 div .mid{
   height: 340px;
   padding: 5% 0px;
+  margin: 40px 0px;
 }
 
 .mid p{
-  font-size: 18px;
+  font-size: 20px;
   height: auto;
   display: flex;
   justify-content: center;
