@@ -11,9 +11,6 @@ header {
 
 }
 
-h2{
-  margin-top: 0;
-}
 .redes-sociais p {
   width: auto;
   float: right;
@@ -51,7 +48,7 @@ header .instagram a{
   width: 100%;
   padding-top: 10px;
   margin: 0px;
-}
+  }
 
 .home img{
   height: 36%;
@@ -73,19 +70,14 @@ header .instagram a{
 
 .box{
   background: #f7f6c8;
-  height: 75px;
+  height: 100%;
   top: 30px;
   text-align: center;
-<<<<<<< HEAD
-  }
-=======
   padding-top: 5px;
   padding-bottom: 10px;
-
 }
->>>>>>> 80c53adcd019403ea1a0dd0f865902d2e8d640cd
 
-div .mid{
+.div .mid{
   padding: 5% 0px;
   margin: 40px 0px;
 }
@@ -97,7 +89,7 @@ div .mid{
   justify-content: center;
   flex-direction: column;
   padding-top: 10px;
-}
+  }
 
 .texto {
   width: 100%;
@@ -112,16 +104,15 @@ div .mid{
 .tabela{
   text-align: center;
   margin-top: 8px;
-  overflow:scroll;
+
 }
 
-
-.mid img{
+/*.mid img{
   width: 96%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 .footer{
   text-align: center;
