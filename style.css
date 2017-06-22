@@ -42,7 +42,7 @@ header .instagram a{
 
 
 .home{
-  background: no-repeat url("images/background2.jpg") 50% 0;
+  background: no-repeat url("images/background02.jpg") 50% 0;
   background-size: cover;
   height: 350px;
   width: 100%;
@@ -83,7 +83,7 @@ header .instagram a{
 }
 
 .mid p{
-  font-size: 19px;
+  font-size: 20px;
   height: auto;
   display: flex;
   justify-content: center;
