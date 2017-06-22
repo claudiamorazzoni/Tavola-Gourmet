@@ -10,6 +10,10 @@ header {
   background-size: 60%;
 
 }
+
+h2{
+  margin-top: 0;
+}
 .redes-sociais p {
   width: auto;
   float: right;
@@ -70,17 +74,11 @@ header .instagram a{
 .box{
   background: #f7f6c8;
   height: 75px;
-  margin: 0 auto;
-  position:relative;
   top: 30px;
-  width: 80%;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
+  }
 
 div .mid{
-  height: 340px;
   padding: 5% 0px;
   margin: 40px 0px;
 }
@@ -94,8 +92,12 @@ div .mid{
   padding-top: 10px;
 }
 
+.texto {
+  width: 100%;
+}
+
 .texto p{
-  margin: 44px 0 10px;
+  margin: 44px 0 10px 0;
   text-align: center;
   font-size: 18px;
 }
