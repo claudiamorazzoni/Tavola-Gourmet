@@ -125,13 +125,22 @@ div .row{
   border-radius: 10px;
   margin-top: 65px;
 }
- .div form{
-  text-align: left;
-  display: flex;
-  padding: 2.5%;
-  padding-top: 0%;
-  width: 50%;
+ .resultado {
+   text-align: left;
+   padding: 2.5%;
+   padding-top: 0%;
+   width: 50%;
+
 }
+.resultado form{
+  width: 50%;
+  display: flex;
+}
+.resultado p{
+  margin-left:80px;
+}
+
+
 .row img{
   display: block;
   margin: auto;
