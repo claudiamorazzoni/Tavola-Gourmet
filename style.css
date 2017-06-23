@@ -102,10 +102,16 @@ div .row{
 }
 
 .formcalorias{
-  text-align: center;
+  text-align: left;
   display: flex;
-  
+  padding: 2.5%;
+  padding-top: 0%;
 
+}
+
+.formcalorias form{
+  width: 25%;
+  padding-left: 50px;
 }
 
 .row img{
@@ -148,3 +154,8 @@ div .row{
   .navigation li{
     display: flex;
   }
+
+  .formcalorias {
+    display: block;
+    width: 100%;
+        }
