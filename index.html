@@ -9,102 +9,109 @@
 </head>
 
 <body>
-   <div class="container">
+  <div class="container">
 
-      <header>
-         <div class="redes-sociais">
-            <p>Siga-nos</p>
-         </div>
-         <div class="facebook">
-            <a href="https://www.facebook.com/tavolaalimentos/" target="_blank" title:"Facebook"></a>
-         </div>
-         <div class="instagram">
-            <a href="https://www.instagram.com/tavola_gourmet" target="_blank" title:"Instagram"></a>
-         </div>
-      </header>
+    <header>
+      <div class="redes-sociais">
+        <p>Siga-nos</p>
+      </div>
+      <div class="facebook">
+        <a href="https://www.facebook.com/tavolaalimentos/" target="_blank" title:"Facebook"></a>
+      </div>
+      <div class="instagram">
+        <a href="https://www.instagram.com/tavola_gourmet" target="_blank" title:"Instagram"></a>
+      </div>
+    </header>
 
-      <div class="home">
-          <img src="images/logo.png">
+    <div class="home">
+      <img src="images/logo.png">
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>Menu</li>
+        <li>Dicas</li>
+        <li>Localização</li>
+        <li>Contato</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Conheça a nossa nova linha de produtos!</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <img class="img-responsive"src="images/tomato.png">
+      </div>
+      <div class="col-md-6">
+        <p>
+          Pensando na sua saúde e nutrição criamos diversas refeições e opções para o seu dia a dia. Nós contamos com o apoio de uma nutricionista para indicar as melhores opções para você.
+          A Tavola Gourmet nasceu oficialmente em junho de 2017 como resultado da busca pessoal por uma alimentação mais saudável para o dia a dia.<br>A Tavola Gourmet se mantem atenta aos movimentos do mercado, certas tendências já fazem parte dos nossos produtos.
+          Atribuímos em cada prato sensorialidade e prazer, saudabilidade e bem-estar, conveniência e praticidade, confiabilidade e qualidade, sustentabilidade e ética.
+        </p>
       </div>
 
-      <div class="navigation">
-         <ul>
-            <li>Menu</li>
-            <li>Dicas</li>
-            <li>Localização</li>
-            <li>Contato</li>
-         </ul>
-      </div>
-
-      <div class="box">
-         <h2>Conheça a nossa nova linha de produtos!</h2>
-      </div>
-
-<div class="row">
-
-         <div class="col-md-6">
-            <img class="img-responsive"src="images/tomato.png">
-         </div>
-         <div class="col-md-6">
-           <p>
-            Pensando na sua saúde e nutrição criamos diversas refeições e opções para o seu dia a dia. Nós contamos com o apoio de uma nutricionista para indicar as melhores opções para você.
-            A Tavola Gourmet nasceu oficialmente em junho de 2017 como resultado da busca pessoal por uma alimentação mais saudável para o dia a dia.<br>A Tavola Gourmet se mantem atenta aos movimentos do mercado, certas tendências já fazem parte dos nossos produtos.
-            Atribuímos em cada prato sensorialidade e prazer, saudabilidade e bem-estar, conveniência e praticidade, confiabilidade e qualidade, sustentabilidade e ética.
-          </p>
-         </div>
-      </div>
-
-
-      <br>
 
       <div class="col-md-12 box">
-         <h2>Qual seu nível de saudabilidade?</h2>
+        <h2>Qual seu nível de saudabilidade?</h2>
       </div>
 
       <div class="texto col-md-10">
-         <p>Primeiramente será necessário saber o que você busca em sua alimentação.</p>
-            <p>Sabor, qualidade ou a praticidade?</p>
-            <p>
-            Veja (abaixo/ao lado) tudo o que você ganha em valor nutricional no prato de sua escolha.
-         </p>
+        <p>Primeiramente será necessário saber o que você busca em sua alimentação.</p>
+        <p>Sabor, qualidade ou a praticidade?</p>
+        <p>
+          Veja (abaixo/ao lado) tudo o que você ganha em valor nutricional no prato de sua escolha.
+        </p>
       </div>
+    </div>
+    <div class="formcalorias">
+      <!-- tabela nutricional - Gostaria de inserir uma tabela seletora com dados já incluídos no qual dê um resultado sobre os itens selecionados-->
+      <form>
+        <h3>Carboidrato</h3>
+        <input type="radio" id = "c1" name="Carboidrato" value="arroz" checked> Arroz<br>
+        <input type="radio" id = "c2" name="Carboidrato" value="batata"> Batata<br>
+        <input type="radio" id = "c3" name="Carboidrato" value="macarrão"> Macarrão
+      </form>
 
-      <div class="tabela">
-         <!-- tabela nutricional - Gostaria de inserir uma tabela seletora com dados já incluídos no qual dê um resultado sobre os itens selecionados-->
-         <form class="table table-striped">
-            <div class="col-md-2">
-               alimento
-            </div>
-            <div class="col-md-2">
-               calorias
-            </div>
-            <div class="col-md-2">
-               alimento
-            </div>
-            <div class="col-md-2">
-               % de saúde
-            </div>
-         </table>
+      <form>
+        <h3>Proteína</h3>
+        <input type="radio" id = "p1" name="Proteína" value="frango" checked> Frango<br>
+        <input type="radio" id = "p2" name="Proteína" value="peixe"> Peixe<br>
+        <input type="radio" id = "p3" name="Proteína" value="carne"> Carne
+      </form>
 
-         <img src="images/tabela.jpg">
-      </div>
+      <form>
+        <h3>Legumes</h3>
+        <input type="radio" id = "l1" name="Legumes" value="abóbora" checked> Abóbora<br>
+        <input type="radio" id = "l2" name="Legumes" value="quiabo"> Quiabo<br>
+        <input type="radio" id = "l3" name="Legumes" value="aspargo"> Aspargo
+      </form>
 
-      <div class="footer">
-         <p>Receba novidades sobre a Tavola Gourmet</p>
-         <form class="form-inline">
-            <div class="form-group">
-               <label for="exampleInputName2">Nome</label>
-               <input type="text" class="form-control" id="exampleInputName2" placeholder="João Silva">
-            </div>
-            <div class="form-group">
-               <label for="exampleInputEmail2">Email</label>
-               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="joaosilva@example.com">
-            </div>
-            <button type="submit" class="btn btn-default">Assinar newsletter</button>
-         </form>
-      </div>
+      <form>
+        <h3>Salada</h3>
+        <input type="radio" id = "s1" name ="Salada" value="caesar" checked> Caesar<br>
+        <input type="radio" id = "s2" name="Salada" value="grega"> Grega<br>
+        <input type="radio" id = "s3" name="Salada" value="mediterrânea"> Mediterrânea
+      </form>
+    </div>
 
-   </div>
-   </div>
+    <div class="footer">
+      <p>Receba novidades sobre a Tavola Gourmet</p>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Nome</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="João Silva">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="joaosilva@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Assinar newsletter</button>
+      </form>
+    </div>
+
+  </div>
 </body>
 </html>

@@ -101,9 +101,10 @@ div .row{
   font-size: 18px;
 }
 
-.tabela{
+.formcalorias{
   text-align: center;
-  margin-top: 8px;
+  display: flex;
+  
 
 }
 
