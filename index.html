@@ -62,7 +62,7 @@
         <p>Primeiramente será necessário saber o que você busca em sua alimentação.</p>
         <p>Sabor, qualidade ou a praticidade?</p>
         <p>
-          Veja (abaixo/ao lado) tudo o que você ganha em valor nutricional no prato de sua escolha.
+          Veja abaixo tudo o que você ganha em valor nutricional no prato de sua escolha.
         </p>
       </div>
     </div>
@@ -70,33 +70,33 @@
       <!-- tabela nutricional - Gostaria de inserir uma tabela seletora com dados já incluídos no qual dê um resultado sobre os itens selecionados-->
       <form>
         <h3>Carboidrato</h3>
-        <input type="radio" id = "c1" name="Carboidrato" value="arroz" checked> Arroz<br>
-        <input type="radio" id = "c2" name="Carboidrato" value="batata"> Batata<br>
-        <input type="radio" id = "c3" name="Carboidrato" value="macarrão"> Macarrão
+        <input type="radio" id = "c1" name="Carboidrato" value="arroz" class="carbo"> Arroz<br>
+        <input type="radio" id = "c2" name="Carboidrato" value="batata" class="carbo"> Batata<br>
+        <input type="radio" id = "c3" name="Carboidrato" value="macarrao" class="carbo"> Macarrão
       </form>
 
       <form>
         <h3>Proteína</h3>
-        <input type="radio" id = "p1" name="Proteína" value="frango" checked> Frango<br>
-        <input type="radio" id = "p2" name="Proteína" value="peixe"> Peixe<br>
-        <input type="radio" id = "p3" name="Proteína" value="carne"> Carne
+        <input type="radio" id = "p1" name="Proteína" value="frango" class="proteina"> Frango<br>
+        <input type="radio" id = "p2" name="Proteína" value="peixe" class="proteina"> Peixe<br>
+        <input type="radio" id = "p3" name="Proteína" value="carne" class="proteina"> Carne
       </form>
 
       <form>
         <h3>Legumes</h3>
-        <input type="radio" id = "l1" name="Legumes" value="abóbora" checked> Abóbora<br>
-        <input type="radio" id = "l2" name="Legumes" value="quiabo"> Quiabo<br>
-        <input type="radio" id = "l3" name="Legumes" value="aspargo"> Aspargo
+        <input type="radio" id = "l1" name="Legumes" value="abobora" class="legume"> Abóbora<br>
+        <input type="radio" id = "l2" name="Legumes" value="quiabo" class="legume"> Quiabo<br>
+        <input type="radio" id = "l3" name="Legumes" value="aspargo" class="legume"> Aspargo
       </form>
 
       <form>
         <h3>Salada</h3>
-        <input type="radio" id = "s1" name ="Salada" value="caesar" checked> Caesar<br>
-        <input type="radio" id = "s2" name="Salada" value="grega"> Grega<br>
-        <input type="radio" id = "s3" name="Salada" value="mediterrânea"> Mediterrânea
+        <input type="radio" id = "s1" name ="Salada" value="caesar" class="salada"> Caesar<br>
+        <input type="radio" id = "s2" name="Salada" value="grega" class="salada"> Grega<br>
+        <input type="radio" id = "s3" name="Salada" value="mediterranea" class="salada"> Mediterrânea
       </form>
 
-      <button>Clique aqui!</button>
+      <button id="botao">Clique aqui!</button>
     </div>
 
     <div class = "resultado">
@@ -124,9 +124,12 @@
           <label for="exampleInputEmail2">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail2" placeholder="joaosilva@example.com">
         </div>
+        <p></p>
         <button type="submit" class="btn btn-default">Assinar newsletter</button>
       </form>
     </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 
   </div>
 </body>
